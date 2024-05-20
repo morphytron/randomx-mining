@@ -33,6 +33,14 @@
     { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
     { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 3 },
     { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 5 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 7 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 8 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 9 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 10 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 11 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 12 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 13 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 15 },
  ],
  
 /*
@@ -95,7 +103,7 @@
  * tls_secure_algo - Use only secure algorithms. This will make us quit with an error if we can't negotiate a secure algo.
  * tls_fingerprint - Server's SHA256 fingerprint. If this string is non-empty then we will check the server's cert against it.
  */
-"use_tls" : false,
+"use_tls" : true,
 "tls_secure_algo" : true,
 "tls_fingerprint" : "",
  
@@ -104,9 +112,9 @@
  * wallet_address - Your wallet, or pool login.
  * pool_password  - Can be empty in most cases or "x".
  */
-"pool_address" : "pool.minexmr.com:4444",
-"wallet_address" : "41hFK3vXafy6WvuDqWZ9nZD1kMuaos54FZnjodhmJ2iL19VvHA2xcN4XWgqyiCcEZGUXFnjektRqA9UqvUSRYv5S3m7PWgr.rig01",
-"pool_password" : "x",
+"pool_address" : "xmr-us-east1.nanopool.org:10343",
+"wallet_address" : "47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.amd-desktop-1/dapatiga@gmail.com",
+"pool_password" : "",
  
 /*
  * Network timeouts.
@@ -165,7 +173,7 @@
  *
  * httpd_port - Port we should listen on. Default, 0, will switch off the server.
  */
-"httpd_port" : 0,
+"httpd_port" : 8069,
  
 /*
  * prefer_ipv4 - IPv6 preference. If the host is available on both IPv4 and IPv6 net, which one should be choose?
