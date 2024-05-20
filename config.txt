@@ -1,6 +1,6 @@
 //Copied from xmr-config @ https://pastebin.com/ZPJdbp7e and modified for my hardware.
 
-*
+/*
  * Thread configuration for each thread. Make sure it matches the number above.
  * low_power_mode - This mode will double the cache usage, and double the single thread performance. It will  
  *                  consume much less power (as less cores are working), but will max out at around 80-85% of  
