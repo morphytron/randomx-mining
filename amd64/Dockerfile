@@ -35,26 +35,30 @@ RUN apt-get upgrade -y;\
             apt-get upgrade -y;
 RUN apt-get install hwloc libhwloc-dev -y;
 RUN useradd --uid=1000 miner
-WORKDIR miner
-RUN git clone https://github.com/fireice-uk/xmr-stak.git; cd \
-    xmr-stak/xmrstak; rm donate-level.hpp;
-COPY ./donate-level.hpp ./xmr-stak/xmrstak/donate-level.hpp
+WORKDIR /miner
+RUN git clone https://github.com/fireice-uk/xmr-stak.git
+WORKDIR xmr-stak
+RUN git checkout xmr-stak-rx;
+# cd xmrstak; rm donate-level.hpp;
+#COPY ./donate-level.hpp ./xmr-stak-rx/xmrstak/donate-level.hpp
 ENV DCMAKE_CC_COMPILER=/usr/bin/gcc5
-RUN cd xmr-stak; cmake  -DCUDA_ENABLE=OFF \
+RUN cmake  -DCUDA_ENABLE=OFF \
     -DOpenCL_ENABLE=ON -DCMAKE_CXX_COMPILER=/usr/bin/g++
-RUN cd xmr-stak; make install;
-COPY config.txt ./xmr-stak/bin/config.txt
-#CMD ls xmr-stak/bin -a
+RUN make install;
+WORKDIR bin
+COPY config.txt .
+COPY cpu.txt .
 ENV XMRSTAK_NOWAIT=1
 EXPOSE 8069
-SHELL [ "/bin/bash", "-c" ]
-ENTRYPOINT ["./xmr-stak/bin/xmr-stak", "-c", "config.txt", "-i", "8069", "--user","47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.amd-desktop-1/dapatiga@gmail.com", "--tls-url", "xmr-us-east1.nanopool.org:10343"]
+#SHELL [ "/bin/bash", "-c" ]
+#CMD ls -a
+ENTRYPOINT ./xmr-stak-rx --currency randomx -i 8069 --user 47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.amd-worker-1/dapatiga@gmail.com --tls-url xmr-us-east1.nanopool.org:10343
+
+
 #chmod +x \
  #   xmr-stak; 
 #COPY config.txt ./xmr-stak/bin/config.txt
 #ENTRYPOINT ["xmr-stak/bin/xmr-stak config.txt"]
-
-
 #FROM nvidia/opencl:runtime-ubuntu18.04
 #RUN useradd --uid=1000 miner
 #RUN apt-get update;

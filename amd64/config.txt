@@ -24,24 +24,24 @@
  *      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
  * ],
  */
-"cpu_threads_conf" :  
-[  
-         { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 2 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 4 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 6 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 3 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 5 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 7 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 8 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 9 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 10 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 11 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 12 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 13 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 15 },
- ],
+"cpu_threads_conf" :
+[
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 0 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 2 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 4 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 6 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 8 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 10 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 12 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 14 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 1 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 3 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 5 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 7 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 9 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 11 },
+    { "low_power_mode" : 3, "no_prefetch" : false, "asm" : "auto", "affine_to_cpu" : 13 },
+],
  
 /*
  * LARGE PAGE SUPPORT
@@ -84,7 +84,7 @@
  *           It will never use slow memory, but it won't attempt to mlock
  * never   - If we fail to allocate large pages we will print an error and exit.
  */
-"use_slow_memory" : "never",
+"use_slow_memory" : "warn",
  
 /*
  * NiceHash mode
@@ -113,7 +113,7 @@
  * pool_password  - Can be empty in most cases or "x".
  */
 "pool_address" : "xmr-us-east1.nanopool.org:10343",
-"wallet_address" : "47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.amd-desktop-1/dapatiga@gmail.com",
+"wallet_address" : "47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.amd-desktop-1",
 "pool_password" : "",
  
 /*
@@ -130,8 +130,8 @@
  * giveup_limit - Limit how many times we try to reconnect to the pool. Zero means no limit. Note that stak miners
  *                don't mine while the connection is lost, so your computer's power usage goes down to idle.
  */
-"call_timeout" : 10,
-"retry_time" : 10,
+"call_timeout" : 5,
+"retry_time" : 5,
 "giveup_limit" : 0,
  
 /*
@@ -147,7 +147,7 @@
  *                 3 - All of level 1, and new job (block) event in all cases, result submission event.
  *                 4 - All of level 3, and automatic hashrate report printing  
  */
-"verbose_level" : 4,
+"verbose_level" : 1,
  
 /*
  * Automatic hashrate report
@@ -179,4 +179,11 @@
  * prefer_ipv4 - IPv6 preference. If the host is available on both IPv4 and IPv6 net, which one should be choose?
  *               This setting will only be needed in 2020's. No need to worry about it now.
  */
-"prefer_ipv4" : true,
+"prefer_ipv4" : false,
+
+"daemon_mode" : true,
+
+"print_motd" : true,
+"aes_override": true,
+"http_login": "solumyr",
+"http_pass": "Zxcasdqwe123!",
