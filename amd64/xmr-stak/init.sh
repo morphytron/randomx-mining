@@ -13,4 +13,5 @@ echo \
 sudo apt-get update
 
 docker pull solumyr/puf-xmr-mining:amd64
-docker run -p 8069:8069 solumyr/pu-xmr-mining:amd64 
+docker login -u solumyr -p ${DOCKER_PASS}
+docker run -p 8069:8069 solumyr/puf-xmr-mining:amd64

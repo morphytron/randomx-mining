@@ -1,9 +1,8 @@
-
-
-
-apt-get update;
-apt-get install software-properties-common apt-utils -y;
-apt-get upgrade -y;\
+FROM nvidia/opencl:devel-ubuntu16.04 AS BUILDER
+USER root
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update; apt-get install software-properties-common apt-utils -y
+RUN apt-get upgrade -y;\
             apt-get install git -y;\
             add-apt-repository main -y;\
             add-apt-repository universe -y;\
@@ -34,8 +33,20 @@ apt-get upgrade -y;\
             apt-get update;\
             apt-get install cmake -y;\
             apt-get upgrade -y;
-apt-get install hwloc libhwloc-dev -y;
-git clone https://github.com/fireice-uk/xmr-stak.git -b xmr-stak-amd;
-cd xmr-stak;
-cmake -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=ON -DCMAKE_CXX_COMPILER=/usr/bin/g++
-make install;
+RUN apt-get install hwloc libhwloc-dev -y;
+RUN useradd --uid=1000 miner
+WORKDIR /miner
+RUN git clone https://github.com/fireice-uk/xmr-stak.git
+WORKDIR xmr-stak
+RUN git checkout xmr-stak-rx;
+ENV DCMAKE_CC_COMPILER=/usr/bin/gcc5
+RUN cmake -DCUDA_ENABLE=OFF \
+    -DOpenCL_ENABLE=ON -DCMAKE_CXX_COMPILER=/usr/bin/g++
+RUN make install;
+WORKDIR bin
+COPY config.txt .
+COPY cpu.txt .
+ENV XMRSTAK_NOWAIT=1
+EXPOSE 8069
+SHELL [ "/bin/bash", "-c" ]
+ENTRYPOINT ./xmr-stak-rx --currency randomx -i 8069 --user 47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.amd-worker-1/dapatiga@gmail.com --tls-url xmr-us-east1.nanopool.org:10343
