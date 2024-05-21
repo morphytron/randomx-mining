@@ -7,5 +7,6 @@ RUN mkdir build && cd build; cmake ..; make -j$(nproc)
 WORKDIR build
 COPY config.json ./
 ENV WORKER_ID=$WORKER_ID
+ENV HOSTNAME=$HOSTNAME
 EXPOSE 8069
-ENTRYPOINT ["./xmrig",  "--api-worker-id", "$WORKER_ID", "--http-port", "8069", "--http-host", "localhost"]
+ENTRYPOINT ["./xmrig",  "--api-worker-id", "${WORKER_ID}", "--http-port", "8069", "--http-host", "${HOSTNAME}"]
