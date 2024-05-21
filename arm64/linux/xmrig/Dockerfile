@@ -8,4 +8,4 @@ WORKDIR build
 COPY config.json ./
 ENV WORKER_ID=$WORKER_ID
 EXPOSE 8069
-ENTRYPOINT ["./xmrig",  "--api-worker-id", "$WORKER_ID"]
+ENTRYPOINT ["./xmrig",  "--api-worker-id", "$WORKER_ID", "--http-port", "8069", "--http-host", "localhost"]
