@@ -32,7 +32,7 @@ ${USER_ADDRESS} >> config.json; cat config_part2.json >> config.json;
 RUN cp config.json ./build/config.json
 WORKDIR build
 EXPOSE 8069
-ENTRYPOINT exec ./xmrig --c ${COIN} -a ${ALGO} --tls -o ${POOL_URL} \
+ENTRYPOINT exec ./xmrig --coin ${COIN} -a ${ALGO} --tls -o ${POOL_URL} \
 --keepalive --cpu-priority ${CPU_PRIORITY} \
 --nicehash \
 --api-worker-id \
