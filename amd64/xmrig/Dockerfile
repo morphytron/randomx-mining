@@ -1,4 +1,5 @@
 FROM nvidia/opencl:latest
+ARG THREADS=32
 ARG WORKER_ID=anonymous_worker
 ARG USER_ADDRESS
 =47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.amd-desktop-1/dapatiga@gmail.com
@@ -29,10 +30,17 @@ COPY config_part2.json .
 RUN touch config.json; cat config_part1.json >> config.json; echo \
 ${USER_ADDRESS} >> config.json; cat config_part2.json >> config.json;
 
+
 RUN cp config.json ./build/config.json
+RUN scripts/randomx_boost.sh
 WORKDIR build
 EXPOSE 8069
-ENTRYPOINT exec ./xmrig --coin ${COIN} -a ${ALGO} --tls -o ${POOL_URL} \
+RUN useradd solumyr --uid=1000
+USER solumyr
+
+
+ENTRYPOINT exec ./xmrig -t ${THREADS} --coin ${COIN} --a ${ALGO} --tls -o \
+${POOL_URL} \
 --keepalive --cpu-priority ${CPU_PRIORITY} \
 --nicehash \
 --api-worker-id \

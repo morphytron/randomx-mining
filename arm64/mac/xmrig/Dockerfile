@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+ARG THREADS=2
 ARG WORKER_ID=anonymous_worker
 ARG USER_ADDRESS=47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.$WORKER_ID/dapatiga@gmail.com
 ARG HOSTNAME=HOSTNAME_not_set
@@ -9,6 +10,7 @@ ARG COIN=monero
 ARG RANDOMX_MODE=auto
 ARG POOL_URL=xmr-us-east1.nanopool.org:10343
 ARG ALGO=rx/0
+ENV THREADS $THREADS
 ENV CPU_PRIORITY $CPU_PRIORITY
 ENV CPU_MEMORY_POOL $CPU_MEMORY_POOL #16MB cache or the total cpu cache.
  #If using small IoT devices, set to 0
@@ -28,10 +30,13 @@ COPY config_part2.json .
 RUN touch config.json; cat config_part1.json >> config.json; echo \
 ${USER_ADDRESS} >> config.json; cat config_part2.json >> config.json;
 
-RUN cp config.json ./build/config.json
 WORKDIR build
 EXPOSE 8069
-ENTRYPOINT exec ./xmrig --coin ${COIN} -a ${ALGO} --tls -o ${POOL_URL} \
+RUN useradd solumyr --uid=1001
+USER solumyr
+
+ENTRYPOINT exec ./xmrig -t ${THREADS} --coin ${COIN} --algo ${ALGO} --tls -o \
+${POOL_URL} \
 --keepalive --cpu-priority ${CPU_PRIORITY} \
 --nicehash \
 --api-worker-id \
