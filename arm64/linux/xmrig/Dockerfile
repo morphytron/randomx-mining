@@ -18,6 +18,7 @@ ENV WORKER_ID $WORKER_ID
 ENV USER_ADDRESS $USER_ADDRESS
 ENV HOSTNAME $HOSTNAME
 ENV POOL_URL $POOL_URL
+ENV COIN $COIN
 ENV ALGO $ALGO
 RUN apt-get update
 RUN apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
@@ -31,6 +32,7 @@ ${USER_ADDRESS} >> config.json; cat config_part2.json >> config.json;
 
 
 RUN cp config.json ./build/config.json
+RUN apt-get install kmod -y
 RUN scripts/randomx_boost.sh
 WORKDIR build
 EXPOSE 8069

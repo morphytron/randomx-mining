@@ -19,6 +19,7 @@ ENV WORKER_ID $WORKER_ID
 ENV USER_ADDRESS $USER_ADDRESS
 ENV HOSTNAME $HOSTNAME
 ENV POOL_URL $POOL_URL
+ENV COIN $COIN
 ENV ALGO $ALGO
 RUN apt-get update
 RUN apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
@@ -35,7 +36,7 @@ EXPOSE 8069
 RUN useradd solumyr --uid=1001
 USER solumyr
 
-ENTRYPOINT exec ./xmrig -t ${THREADS} --coin ${COIN} --algo ${ALGO} --tls -o \
+ENTRYPOINT exec ./xmrig -t ${THREADS} --coin ${COIN} -a ${ALGO} --tls -o \
 ${POOL_URL} \
 --keepalive --cpu-priority ${CPU_PRIORITY} \
 --nicehash \

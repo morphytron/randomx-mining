@@ -1,8 +1,7 @@
 FROM nvidia/opencl:latest
 ARG THREADS=32
 ARG WORKER_ID=anonymous_worker
-ARG USER_ADDRESS
-=47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.amd-desktop-1/dapatiga@gmail.com
+ARG USER_ADDRESS=47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.amd-desktop-1/dapatiga@gmail.com
 ARG HOSTNAME=HOSTNAME_not_set
 ARG CPU_PRIORITY=5
 ARG CPU_MEMORY_POOL=8
@@ -19,6 +18,7 @@ ENV WORKER_ID $WORKER_ID
 ENV USER_ADDRESS $USER_ADDRESS
 ENV HOSTNAME $HOSTNAME
 ENV POOL_URL $POOL_URL
+ENV COIN $COIN
 ENV ALGO $ALGO
 RUN apt-get update
 RUN apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
@@ -32,6 +32,7 @@ ${USER_ADDRESS} >> config.json; cat config_part2.json >> config.json;
 
 
 RUN cp config.json ./build/config.json
+RUN apt-get install kmod -y
 RUN scripts/randomx_boost.sh
 WORKDIR build
 EXPOSE 8069
