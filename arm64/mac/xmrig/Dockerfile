@@ -8,7 +8,7 @@ ARG POOL_URL
 ARG COIN=monero
 ARG RANDOMX_MODE=auto
 ARG POOL_URL=xmr-us-east1.nanopool.org:10343
-ARG ALGO=rx/0                                       
+ARG ALGO=rx/0
 ENV CPU_PRIORITY $CPU_PRIORITY
 ENV CPU_MEMORY_POOL $CPU_MEMORY_POOL #16MB cache or the total cpu cache.
  #If using small IoT devices, set to 0
@@ -31,7 +31,7 @@ ${USER_ADDRESS} >> config.json; cat config_part2.json >> config.json;
 RUN cp config.json ./build/config.json
 WORKDIR build
 EXPOSE 8069
-ENTRYPOINT ./xmrig --tls -o ${POOL_URL} \
+ENTRYPOINT ./xmrig --c ${COIN} -a ${ALGO} --tls -o ${POOL_URL} \
 --keepalive --cpu-priority ${CPU_PRIORITY} \
 --nicehash \
 --api-worker-id \
