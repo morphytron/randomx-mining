@@ -30,9 +30,6 @@ COPY config_part2.json .
 RUN touch config.json; cat config_part1.json >> config.json; echo \
 ${USER_ADDRESS} >> config.json; cat config_part2.json >> config.json;
 RUN cp config.json ./build/config.json
-RUN apt-get install kmod -y
-RUN scripts/randomx_boost.sh
-RUN scripts/enable_1gb_pages.sh
 WORKDIR build
 EXPOSE 8069
 RUN useradd solumyr --uid=1001
