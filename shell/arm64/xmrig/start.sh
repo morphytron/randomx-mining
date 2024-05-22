@@ -1,10 +1,10 @@
 export WORKER_ID=odroid-1
 export HOSTNAME=localhost
-export CPU_PRIORITY=5
+export CPU_PRIORITY=4
 export ALGO=rx/0
 export COIN=monero
 export THREADS=1
-export RANDOMX_MODE=auto
+export RANDOMX_MODE=slow
 export POOL_URL=xmr-us-east1.nanopool.org:10343
 export CPU_MEMORY_POOL=0 #memory is on chip
 export USER_ADDRESS=47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.amd-desktop-1/dapatiga@gmail.com
