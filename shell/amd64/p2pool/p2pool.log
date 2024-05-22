@@ -1,0 +1,702 @@
+NOTICE  2024-05-22 08:02:23.0723 Log started
+NOTICE  2024-05-22 08:02:23.1103 Log stopped
+NOTICE  2024-05-22 09:29:25.5753 Log started
+NOTICE  2024-05-22 09:29:25.5771 P2Pool v3.10 (built with GCC/13.2.1 on Jan  4 2024)
+NOTICE  2024-05-22 09:29:25.5774 Util UPnP: Started scanning for UPnP IGD devices
+NOTICE  2024-05-22 09:29:25.5782 SideChain network type  = mainnet
+NOTICE  2024-05-22 09:29:25.5783 SideChain using default config
+NOTICE  2024-05-22 09:29:25.5784 SideChain pool name     = default
+NOTICE  2024-05-22 09:29:25.5784 SideChain block time    = 10 seconds
+NOTICE  2024-05-22 09:29:25.5784 SideChain min diff      = 100000
+NOTICE  2024-05-22 09:29:25.5784 SideChain PPLNS window  = 2160 blocks
+NOTICE  2024-05-22 09:29:25.5784 SideChain uncle penalty = 20%
+NOTICE  2024-05-22 09:29:25.5785 SideChain generating consensus ID
+NOTICE  2024-05-22 09:29:25.5785 SideChain consensus ID = 22af7ee7************************************************4407f918
+WARNING 2024-05-22 09:29:25.5793 RandomX_Hasher couldn't allocate RandomX dataset using large pages
+WARNING 2024-05-22 09:29:25.5795 RandomX_Hasher couldn't allocate RandomX cache using large pages
+WARNING 2024-05-22 09:29:25.5797 RandomX_Hasher couldn't allocate RandomX cache using large pages
+NOTICE  2024-05-22 09:29:25.5799 RandomX_Hasher allocated 2592 MB
+NOTICE  2024-05-22 09:29:25.5803 ConsoleCommands uv_guess_handle returned 14
+NOTICE  2024-05-22 09:29:25.5803 ConsoleCommands processing stdin as UV_TTY
+NOTICE  2024-05-22 09:29:25.5803 TCPServer listening on 127.0.0.1:58269
+NOTICE  2024-05-22 09:29:25.5804 ConsoleCommands event loop started
+WARNING 2024-05-22 09:29:25.5808 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:26.5813 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:27.5819 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:28.5822 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:29.5828 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 09:29:29.5858 Util UPnP: Finished scanning for UPnP IGD devices
+WARNING 2024-05-22 09:29:30.5834 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:31.5837 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:32.5840 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:33.5842 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:34.5846 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:35.5848 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:36.5850 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:37.5852 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:38.5856 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:39.5863 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:40.5869 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:41.5873 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:29:42.5878 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 09:29:43.5884 P2Pool caught SIGINT
+NOTICE  2024-05-22 09:29:43.5884 P2Pool stopping
+NOTICE  2024-05-22 09:29:43.5886 ConsoleCommands event loop stopped
+NOTICE  2024-05-22 09:29:43.5886 TCPServer stopped
+WARNING 2024-05-22 09:29:43.5886 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 09:29:43.5886 P2Pool uv_run exited, result = 0
+NOTICE  2024-05-22 09:29:43.5887 P2Pool stopped
+NOTICE  2024-05-22 09:29:43.5891 RandomX_Hasher stopped
+NOTICE  2024-05-22 09:29:43.6094 Log stopped
+NOTICE  2024-05-22 09:32:06.6199 Log started
+NOTICE  2024-05-22 09:32:06.6209 P2Pool v3.10 (built with GCC/13.2.1 on Jan  4 2024)
+NOTICE  2024-05-22 09:32:06.6209 Util UPnP: Started scanning for UPnP IGD devices
+NOTICE  2024-05-22 09:32:06.6216 SideChain network type  = mainnet
+NOTICE  2024-05-22 09:32:06.6216 SideChain using default config
+NOTICE  2024-05-22 09:32:06.6216 SideChain pool name     = default
+NOTICE  2024-05-22 09:32:06.6216 SideChain block time    = 10 seconds
+NOTICE  2024-05-22 09:32:06.6216 SideChain min diff      = 100000
+NOTICE  2024-05-22 09:32:06.6216 SideChain PPLNS window  = 2160 blocks
+NOTICE  2024-05-22 09:32:06.6216 SideChain uncle penalty = 20%
+NOTICE  2024-05-22 09:32:06.6216 SideChain generating consensus ID
+NOTICE  2024-05-22 09:32:06.6217 SideChain consensus ID = 22af7ee7************************************************4407f918
+WARNING 2024-05-22 09:32:06.6222 RandomX_Hasher couldn't allocate RandomX dataset using large pages
+WARNING 2024-05-22 09:32:06.6224 RandomX_Hasher couldn't allocate RandomX cache using large pages
+WARNING 2024-05-22 09:32:06.6226 RandomX_Hasher couldn't allocate RandomX cache using large pages
+NOTICE  2024-05-22 09:32:06.6228 RandomX_Hasher allocated 2592 MB
+NOTICE  2024-05-22 09:32:06.6231 ConsoleCommands uv_guess_handle returned 17
+ERROR   2024-05-22 09:32:06.6231 ConsoleCommands tty or named pipe is not available
+NOTICE  2024-05-22 09:32:06.6232 TCPServer listening on 127.0.0.1:63671
+NOTICE  2024-05-22 09:32:06.6232 ConsoleCommands event loop started
+WARNING 2024-05-22 09:32:06.6233 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:07.6239 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:08.6242 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:09.6247 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:10.6252 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 09:32:10.6295 Util UPnP: Finished scanning for UPnP IGD devices
+WARNING 2024-05-22 09:32:11.6258 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:12.6263 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 09:32:19.0800 Log started
+NOTICE  2024-05-22 09:32:19.0810 P2Pool v3.10 (built with GCC/13.2.1 on Jan  4 2024)
+NOTICE  2024-05-22 09:32:19.0810 Util UPnP: Started scanning for UPnP IGD devices
+NOTICE  2024-05-22 09:32:19.0818 SideChain network type  = mainnet
+NOTICE  2024-05-22 09:32:19.0818 SideChain using default config
+NOTICE  2024-05-22 09:32:19.0818 SideChain pool name     = default
+NOTICE  2024-05-22 09:32:19.0818 SideChain block time    = 10 seconds
+NOTICE  2024-05-22 09:32:19.0818 SideChain min diff      = 100000
+NOTICE  2024-05-22 09:32:19.0818 SideChain PPLNS window  = 2160 blocks
+NOTICE  2024-05-22 09:32:19.0818 SideChain uncle penalty = 20%
+NOTICE  2024-05-22 09:32:19.0818 SideChain generating consensus ID
+NOTICE  2024-05-22 09:32:19.0818 SideChain consensus ID = 22af7ee7************************************************4407f918
+WARNING 2024-05-22 09:32:19.0823 RandomX_Hasher couldn't allocate RandomX dataset using large pages
+WARNING 2024-05-22 09:32:19.0825 RandomX_Hasher couldn't allocate RandomX cache using large pages
+WARNING 2024-05-22 09:32:19.0827 RandomX_Hasher couldn't allocate RandomX cache using large pages
+NOTICE  2024-05-22 09:32:19.0829 RandomX_Hasher allocated 2592 MB
+NOTICE  2024-05-22 09:32:19.0833 ConsoleCommands uv_guess_handle returned 17
+ERROR   2024-05-22 09:32:19.0833 ConsoleCommands tty or named pipe is not available
+NOTICE  2024-05-22 09:32:19.0833 TCPServer listening on 127.0.0.1:57089
+NOTICE  2024-05-22 09:32:19.0833 ConsoleCommands event loop started
+WARNING 2024-05-22 09:32:19.0834 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:20.0840 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:21.0846 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:22.0850 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:23.0853 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 09:32:23.0898 Util UPnP: Finished scanning for UPnP IGD devices
+WARNING 2024-05-22 09:32:24.0855 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:25.0858 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:26.0859 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:27.0862 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:28.0865 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:29.0867 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:30.0871 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:31.0878 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:32.0883 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:33.0888 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:34.0893 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:35.0898 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:36.0903 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:37.0908 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:38.0913 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:39.0918 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:40.0923 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:41.0928 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:42.0934 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:43.0939 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:44.0944 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:45.0949 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:46.0954 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:47.0958 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:48.0964 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:49.0969 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:50.0974 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:51.0978 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:52.0984 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:53.0985 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:54.0987 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:55.0990 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:56.0992 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:57.0994 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:58.0997 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:32:59.1001 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:00.1003 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:01.1005 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:02.1007 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:03.1009 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:04.1011 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:05.1014 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:06.1016 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:07.1018 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:08.1021 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:09.1023 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:10.1026 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:11.1028 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:12.1030 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:13.1032 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:14.1036 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:15.1038 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:16.1041 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:17.1043 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:18.1045 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:19.1047 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:20.1052 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:21.1054 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:22.1061 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:23.1066 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:24.1071 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:25.1076 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:26.1081 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:27.1086 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:28.1091 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:29.1095 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:30.1100 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:31.1105 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:32.1110 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:33.1115 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:34.1120 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:35.1125 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:36.1130 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:37.1135 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:38.1140 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:39.1145 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:40.1150 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:41.1155 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:42.1160 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:43.1165 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:44.1167 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:45.1170 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:46.1172 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:47.1175 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:48.1177 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:49.1180 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:50.1182 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:51.1184 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:52.1186 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:53.1189 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:54.1191 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:55.1196 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:56.1203 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:57.1208 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:58.1213 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:33:59.1218 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:00.1224 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:01.1229 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:02.1234 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:03.1237 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:04.1242 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:05.1247 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:06.1252 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:07.1257 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:08.1262 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:09.1267 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:10.1273 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:11.1278 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:12.1283 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:13.1289 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:14.1294 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:15.1300 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:16.1304 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:17.1307 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:18.1309 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:19.1313 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:20.1315 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:21.1317 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:22.1319 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:23.1324 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:24.1330 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:25.1336 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:26.1341 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:27.1346 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:28.1351 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:29.1356 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:30.1361 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:31.1365 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:32.1370 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:33.1376 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:34.1381 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:35.1386 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:36.1392 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:37.1397 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:38.1402 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:39.1407 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:40.1412 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:41.1416 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:42.1421 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:43.1427 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:44.1432 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:45.1435 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:46.1437 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:47.1439 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:48.1441 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:49.1444 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:50.1447 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:51.1449 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:52.1451 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:53.1454 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:54.1456 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:55.1457 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:56.1460 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:57.1462 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:58.1465 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:34:59.1468 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:00.1470 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:01.1472 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:02.1474 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:03.1478 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:04.1481 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:05.1489 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:06.1494 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:07.1499 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:08.1504 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:09.1506 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:10.1511 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:11.1516 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:12.1522 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:13.1527 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:14.1532 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:15.1538 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:16.1543 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:17.1548 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:18.1554 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:19.1560 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:20.1565 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:21.1571 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:22.1576 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:23.1581 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:24.1586 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:25.1590 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:26.1595 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:27.1601 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:28.1603 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:29.1608 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:30.1613 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:31.1614 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:32.1619 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:33.1624 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:34.1628 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:35.1633 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:36.1638 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:37.1643 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:38.1648 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:39.1653 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:40.1658 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:41.1663 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:42.1668 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:43.1673 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:44.1679 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:45.1684 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:46.1689 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:47.1694 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:48.1695 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:49.1697 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:50.1702 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:51.1707 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:52.1712 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:53.1717 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:54.1720 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:55.1722 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:56.1725 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:57.1727 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:58.1730 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:35:59.1732 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:00.1734 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:01.1736 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:02.1738 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:03.1742 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:04.1746 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:05.1747 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:06.1749 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:07.1751 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:08.1754 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:09.1756 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:10.1758 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:11.1762 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:12.1764 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:13.1766 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:14.1768 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:15.1770 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:16.1773 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:17.1776 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:18.1784 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:19.1789 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:20.1794 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:21.1799 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:22.1804 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:23.1809 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:24.1814 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:25.1819 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:26.1824 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:27.1829 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:28.1834 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:29.1839 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:30.1844 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:31.1846 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:32.1851 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:33.1855 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:34.1860 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:35.1865 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:36.1870 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:37.1875 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:38.1877 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:39.1882 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:40.1887 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:41.1892 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:42.1897 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:43.1904 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:44.1909 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:45.1914 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:46.1919 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:47.1924 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:48.1930 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:49.1935 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:50.1940 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:51.1945 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:52.1950 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:53.1955 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:54.1960 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:55.1965 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:56.1971 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:57.1976 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:58.1981 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:36:59.1986 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:00.1991 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:01.1996 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:02.2001 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:03.2006 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:04.2008 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:05.2012 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:06.2013 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:07.2017 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:08.2019 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:09.2021 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:10.2023 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:11.2029 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:12.2034 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:13.2037 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:14.2038 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:15.2040 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:16.2045 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:17.2051 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:18.2055 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:19.2058 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:20.2063 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:21.2066 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:22.2071 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:23.2076 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:24.2081 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:25.2086 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:26.2091 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:27.2096 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:28.2101 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:29.2106 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:30.2111 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:31.2116 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:32.2121 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:33.2130 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:34.2135 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:35.2140 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:36.2145 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:37.2148 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:38.2150 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:39.2152 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:40.2155 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:41.2158 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:42.2163 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:43.2169 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:44.2172 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:45.2177 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:46.2182 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:47.2187 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:48.2191 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:49.2197 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:50.2198 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:51.2201 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:52.2204 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:53.2209 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:54.2214 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:55.2215 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:56.2220 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:57.2222 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:58.2225 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:37:59.2231 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:00.2236 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:01.2241 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:02.2246 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:03.2251 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:04.2256 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:05.2261 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:06.2266 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:07.2271 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:08.2276 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:09.2281 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:10.2286 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:11.2290 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:12.2292 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:13.2295 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:14.2299 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:15.2302 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:16.2308 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:17.2313 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:18.2318 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:19.2324 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:20.2330 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:21.2335 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:22.2341 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:23.2346 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:24.2351 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:25.2355 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:26.2357 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:27.2362 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:28.2367 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:29.2373 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:30.2378 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:31.2383 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:32.2388 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:33.2393 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:34.2398 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:35.2404 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:36.2409 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:37.2412 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:38.2415 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:39.2417 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:40.2419 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:41.2422 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:42.2425 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:43.2426 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:44.2430 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:45.2431 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:46.2433 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:47.2436 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:48.2440 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:49.2443 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:50.2450 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:51.2455 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:52.2461 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:53.2467 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:54.2471 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:55.2477 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:56.2481 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:57.2487 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:58.2492 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:38:59.2498 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:00.2503 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:01.2508 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:02.2509 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:03.2515 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:04.2520 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:05.2525 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:06.2530 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:07.2535 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:08.2543 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:09.2549 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:10.2552 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:11.2554 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:12.2556 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:13.2562 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:14.2568 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:15.2571 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:16.2576 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:17.2582 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:18.2587 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:19.2592 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:20.2597 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:21.2602 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:22.2608 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:23.2612 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:24.2618 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:25.2623 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:26.2629 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:27.2634 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:28.2639 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:29.2644 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:30.2649 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:31.2654 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:32.2659 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:33.2664 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:34.2669 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:35.2672 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:36.2674 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:37.2677 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:38.2678 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:39.2681 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:40.2684 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:41.2686 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 09:39:42.2689 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 09:39:43.0964 P2Pool caught SIGTERM
+NOTICE  2024-05-22 09:39:43.0964 P2Pool stopping
+NOTICE  2024-05-22 09:39:43.0965 ConsoleCommands event loop stopped
+NOTICE  2024-05-22 09:39:43.0966 TCPServer stopped
+WARNING 2024-05-22 09:39:43.0966 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 09:39:43.0966 P2Pool uv_run exited, result = 0
+NOTICE  2024-05-22 09:39:43.0966 P2Pool stopped
+NOTICE  2024-05-22 09:39:43.0969 RandomX_Hasher stopped
+NOTICE  2024-05-22 09:39:43.0971 Log stopped
+NOTICE  2024-05-22 09:39:43.2692 P2Pool caught SIGTERM
+NOTICE  2024-05-22 09:39:43.2692 P2Pool stopping
+NOTICE  2024-05-22 09:39:43.2692 P2Pool caught SIGHUP
+NOTICE  2024-05-22 09:39:43.2692 P2Pool stopping
+NOTICE  2024-05-22 09:39:43.2693 ConsoleCommands event loop stopped
+NOTICE  2024-05-22 09:39:43.2693 TCPServer stopped
+WARNING 2024-05-22 09:39:43.2694 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 09:39:43.2694 P2Pool uv_run exited, result = 0
+NOTICE  2024-05-22 09:39:43.2694 P2Pool stopped
+NOTICE  2024-05-22 09:39:43.2696 RandomX_Hasher stopped
+NOTICE  2024-05-22 09:39:43.2697 Log stopped
+NOTICE  2024-05-22 10:06:34.0832 Log started
+NOTICE  2024-05-22 10:06:34.0843 P2Pool v3.10 (built with GCC/13.2.1 on Jan  4 2024)
+NOTICE  2024-05-22 10:06:34.0844 Util UPnP: Started scanning for UPnP IGD devices
+NOTICE  2024-05-22 10:06:34.0855 SideChain network type  = mainnet
+NOTICE  2024-05-22 10:06:34.0855 SideChain using default config
+NOTICE  2024-05-22 10:06:34.0855 SideChain pool name     = default
+NOTICE  2024-05-22 10:06:34.0855 SideChain block time    = 10 seconds
+NOTICE  2024-05-22 10:06:34.0855 SideChain min diff      = 100000
+NOTICE  2024-05-22 10:06:34.0855 SideChain PPLNS window  = 2160 blocks
+NOTICE  2024-05-22 10:06:34.0855 SideChain uncle penalty = 20%
+NOTICE  2024-05-22 10:06:34.0855 SideChain generating consensus ID
+NOTICE  2024-05-22 10:06:34.0855 SideChain consensus ID = 22af7ee7************************************************4407f918
+NOTICE  2024-05-22 10:06:34.2878 RandomX_Hasher allocated 2592 MB
+NOTICE  2024-05-22 10:06:34.2883 ConsoleCommands uv_guess_handle returned 14
+NOTICE  2024-05-22 10:06:34.2883 ConsoleCommands processing stdin as UV_TTY
+NOTICE  2024-05-22 10:06:34.2884 TCPServer listening on 127.0.0.1:52758
+NOTICE  2024-05-22 10:06:34.2885 ConsoleCommands event loop started
+WARNING 2024-05-22 10:06:34.2885 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:35.2887 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:36.2888 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:37.2889 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 10:06:38.0916 Util UPnP: Finished scanning for UPnP IGD devices
+WARNING 2024-05-22 10:06:38.2891 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:39.2892 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:40.2893 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:41.2895 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:42.2896 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:43.2897 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:44.2899 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:45.2900 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:46.2901 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:06:47.2903 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 10:06:48.2907 P2Pool caught SIGINT
+NOTICE  2024-05-22 10:06:48.2907 P2Pool stopping
+NOTICE  2024-05-22 10:06:48.2909 ConsoleCommands event loop stopped
+NOTICE  2024-05-22 10:06:48.2909 TCPServer stopped
+WARNING 2024-05-22 10:06:48.2909 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 10:06:48.2909 P2Pool uv_run exited, result = 0
+NOTICE  2024-05-22 10:06:48.2909 P2Pool stopped
+NOTICE  2024-05-22 10:06:48.2918 RandomX_Hasher stopped
+NOTICE  2024-05-22 10:06:48.2919 Log stopped
+NOTICE  2024-05-22 10:11:49.8453 Log started
+NOTICE  2024-05-22 10:11:49.8806 Log stopped
+NOTICE  2024-05-22 10:12:08.2742 Log started
+NOTICE  2024-05-22 10:12:08.3009 Log stopped
+NOTICE  2024-05-22 10:12:29.0008 Log started
+NOTICE  2024-05-22 10:12:29.0273 Log stopped
+NOTICE  2024-05-22 10:13:38.0372 Log started
+NOTICE  2024-05-22 10:13:38.0652 Log stopped
+NOTICE  2024-05-22 10:14:04.3781 Log started
+NOTICE  2024-05-22 10:14:04.3791 P2Pool v3.10 (built with GCC/13.2.1 on Jan  4 2024)
+NOTICE  2024-05-22 10:14:04.3792 Util UPnP: Started scanning for UPnP IGD devices
+ERROR   2024-05-22 10:14:04.3803 P2Pool --local-api and --stratum-api command line parameters can't be used without --data-api
+NOTICE  2024-05-22 10:14:04.3804 Log stopped
+NOTICE  2024-05-22 10:14:22.9243 Log started
+NOTICE  2024-05-22 10:14:22.9253 P2Pool v3.10 (built with GCC/13.2.1 on Jan  4 2024)
+NOTICE  2024-05-22 10:14:22.9254 Util UPnP: Started scanning for UPnP IGD devices
+NOTICE  2024-05-22 10:14:22.9262 SideChain network type  = mainnet
+NOTICE  2024-05-22 10:14:22.9262 SideChain using default config
+NOTICE  2024-05-22 10:14:22.9262 SideChain pool name     = default
+NOTICE  2024-05-22 10:14:22.9262 SideChain block time    = 10 seconds
+NOTICE  2024-05-22 10:14:22.9262 SideChain min diff      = 100000
+NOTICE  2024-05-22 10:14:22.9262 SideChain PPLNS window  = 2160 blocks
+NOTICE  2024-05-22 10:14:22.9262 SideChain uncle penalty = 20%
+NOTICE  2024-05-22 10:14:22.9262 SideChain generating consensus ID
+NOTICE  2024-05-22 10:14:22.9262 SideChain consensus ID = 22af7ee7************************************************4407f918
+NOTICE  2024-05-22 10:14:22.9268 RandomX_Hasher event loop started
+NOTICE  2024-05-22 10:14:22.9271 ConsoleCommands uv_guess_handle returned 14
+NOTICE  2024-05-22 10:14:22.9271 ConsoleCommands processing stdin as UV_TTY
+NOTICE  2024-05-22 10:14:22.9272 TCPServer listening on 127.0.0.1:57335
+NOTICE  2024-05-22 10:14:22.9272 ConsoleCommands event loop started
+WARNING 2024-05-22 10:14:22.9273 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:23.9274 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:24.9276 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:25.9277 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:26.9278 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 10:14:26.9329 Util UPnP: Finished scanning for UPnP IGD devices
+WARNING 2024-05-22 10:14:27.9280 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:28.9281 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:29.9282 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:30.9284 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:31.9285 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:32.9286 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:33.9287 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:34.9288 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:35.9289 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:36.9291 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:37.9292 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+WARNING 2024-05-22 10:14:38.9293 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 10:14:39.9298 P2Pool caught SIGINT
+NOTICE  2024-05-22 10:14:39.9298 P2Pool stopping
+NOTICE  2024-05-22 10:14:39.9299 ConsoleCommands event loop stopped
+NOTICE  2024-05-22 10:14:39.9299 TCPServer stopped
+WARNING 2024-05-22 10:14:39.9300 P2Pool get_info RPC request to host amd-desktop-1:18081:ZMQ:18083 (fe80::e544:4b33:40f6:199f) failed: error URL using bad/illegal format or missing URL (empty response), trying again in 1 second
+NOTICE  2024-05-22 10:14:39.9300 P2Pool uv_run exited, result = 0
+NOTICE  2024-05-22 10:14:39.9300 P2Pool stopped
+NOTICE  2024-05-22 10:14:39.9302 RandomX_Hasher event loop stopped
+NOTICE  2024-05-22 10:14:39.9302 RandomX_Hasher stopped
+NOTICE  2024-05-22 10:14:39.9303 Log stopped
+NOTICE  2024-05-22 10:14:56.7405 Log started
+NOTICE  2024-05-22 10:14:56.7414 P2Pool v3.10 (built with GCC/13.2.1 on Jan  4 2024)
+NOTICE  2024-05-22 10:14:56.7415 Util UPnP: Started scanning for UPnP IGD devices
+NOTICE  2024-05-22 10:14:56.7417 SideChain network type  = mainnet
+NOTICE  2024-05-22 10:14:56.7417 SideChain using default config
+NOTICE  2024-05-22 10:14:56.7417 SideChain pool name     = default
+NOTICE  2024-05-22 10:14:56.7417 SideChain block time    = 10 seconds
+NOTICE  2024-05-22 10:14:56.7417 SideChain min diff      = 100000
+NOTICE  2024-05-22 10:14:56.7417 SideChain PPLNS window  = 2160 blocks
+NOTICE  2024-05-22 10:14:56.7417 SideChain uncle penalty = 20%
+NOTICE  2024-05-22 10:14:56.7417 SideChain generating consensus ID
+NOTICE  2024-05-22 10:14:56.7417 SideChain consensus ID = 22af7ee7************************************************4407f918
+NOTICE  2024-05-22 10:14:56.7423 RandomX_Hasher event loop started
+NOTICE  2024-05-22 10:14:56.7427 ConsoleCommands uv_guess_handle returned 14
+NOTICE  2024-05-22 10:14:56.7427 ConsoleCommands processing stdin as UV_TTY
+NOTICE  2024-05-22 10:14:56.7428 TCPServer listening on 127.0.0.1:54244
+NOTICE  2024-05-22 10:14:56.7429 ConsoleCommands event loop started
+NOTICE  2024-05-22 10:14:56.8137 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:14:57.8800 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:14:58.9468 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:15:00.0297 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:15:00.7480 Util UPnP: Finished scanning for UPnP IGD devices
+NOTICE  2024-05-22 10:15:01.0637 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:15:02.0676 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:15:03.0901 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:15:04.1549 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:15:05.2099 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:15:06.3117 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:15:07.3584 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:15:08.4292 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:15:09.5254 P2Pool monerod is busy syncing, trying again in 1 second
+NOTICE  2024-05-22 10:15:10.5256 P2Pool caught SIGINT
+NOTICE  2024-05-22 10:15:10.5256 P2Pool stopping
+NOTICE  2024-05-22 10:15:10.5257 ConsoleCommands event loop stopped
+NOTICE  2024-05-22 10:15:10.5257 TCPServer stopped
+NOTICE  2024-05-22 10:15:10.5922 P2Pool uv_run exited, result = 0
+NOTICE  2024-05-22 10:15:10.5922 P2Pool stopped
+NOTICE  2024-05-22 10:15:10.5925 RandomX_Hasher event loop stopped
+NOTICE  2024-05-22 10:15:10.5925 RandomX_Hasher stopped
+NOTICE  2024-05-22 10:15:10.5926 Log stopped
