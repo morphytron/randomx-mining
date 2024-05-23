@@ -1,0 +1,14 @@
+{
+  "autosave": true,
+  "cpu": true,
+  "opencl": true,
+  "cuda": false,
+  "pools": [
+    {
+      "coin": "monero",
+      "url": "zeph.us.ekapool.com:15667",
+      "user": "ZEPHYR3d6nt5dFCgRDh8A83sK9S7wxtPSFmkggEsV89Y3GWei5rQUphRbiyVbmnKjVW9dk4SNL8D9RC1g2Zhq4EaYjituvxKdLK4X",
+      "tls": true
+}
+]
+}
