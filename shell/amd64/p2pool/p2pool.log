@@ -700,3 +700,149 @@ NOTICE  2024-05-22 10:15:10.5922 P2Pool stopped
 NOTICE  2024-05-22 10:15:10.5925 RandomX_Hasher event loop stopped
 NOTICE  2024-05-22 10:15:10.5925 RandomX_Hasher stopped
 NOTICE  2024-05-22 10:15:10.5926 Log stopped
+NOTICE  2024-05-23 03:27:19.2229 Log started
+NOTICE  2024-05-23 03:27:19.2239 P2Pool v3.10 (built with GCC/13.2.1 on Jan  4 2024)
+NOTICE  2024-05-23 03:27:19.2239 Util UPnP: Started scanning for UPnP IGD devices
+NOTICE  2024-05-23 03:27:19.2241 SideChain network type  = mainnet
+NOTICE  2024-05-23 03:27:19.2241 SideChain using default config
+NOTICE  2024-05-23 03:27:19.2241 SideChain pool name     = default
+NOTICE  2024-05-23 03:27:19.2241 SideChain block time    = 10 seconds
+NOTICE  2024-05-23 03:27:19.2241 SideChain min diff      = 100000
+NOTICE  2024-05-23 03:27:19.2241 SideChain PPLNS window  = 2160 blocks
+NOTICE  2024-05-23 03:27:19.2241 SideChain uncle penalty = 20%
+NOTICE  2024-05-23 03:27:19.2241 SideChain generating consensus ID
+NOTICE  2024-05-23 03:27:19.2241 SideChain consensus ID = 22af7ee7************************************************4407f918
+NOTICE  2024-05-23 03:27:19.2251 RandomX_Hasher event loop started
+NOTICE  2024-05-23 03:27:19.2255 ConsoleCommands uv_guess_handle returned 17
+ERROR   2024-05-23 03:27:19.2255 ConsoleCommands tty or named pipe is not available
+NOTICE  2024-05-23 03:27:19.2256 TCPServer listening on 127.0.0.1:50987
+NOTICE  2024-05-23 03:27:19.2257 ConsoleCommands event loop started
+NOTICE  2024-05-23 03:27:19.2271 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:20.2289 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:21.2303 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:22.2318 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:23.2317 Util UPnP: Finished scanning for UPnP IGD devices
+NOTICE  2024-05-23 03:27:23.2333 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:24.2350 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:25.2364 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:26.2381 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:27.2399 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:28.2416 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:29.2433 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:30.2450 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:31.2467 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:32.2485 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:33.2502 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:34.2519 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:35.2537 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:36.2555 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:37.2572 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:38.2589 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:39.2606 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:40.2623 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:41.2642 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:42.2659 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:43.2676 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:44.2694 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:45.2712 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:46.2729 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:47.2748 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:48.2762 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:49.2777 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:50.2794 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:51.2812 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:52.2830 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:53.2847 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:54.2865 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:55.2883 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:56.2901 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:57.2918 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:58.2935 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:27:59.2953 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:00.2966 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:01.2984 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:02.3001 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:03.3018 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:04.3032 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:05.3050 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:06.3067 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:07.3084 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:08.3104 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:09.3121 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:10.3139 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:11.3155 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:12.3173 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:13.3190 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:14.3207 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:15.3225 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:16.3242 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:17.3259 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:18.3276 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:19.3293 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:20.3310 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:21.3327 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:22.3345 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:23.3362 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:24.3380 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:25.3397 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:26.3414 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:27.3431 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:28.3448 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:29.3465 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:30.3483 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:31.3497 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:32.3515 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:33.3533 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:34.3551 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:35.3568 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:36.3583 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:37.3597 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:38.3614 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:39.3632 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:40.3649 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:41.3663 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:42.3680 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:43.3698 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:44.3715 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:45.3732 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:46.3749 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:47.3767 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:48.3784 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:49.3801 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:50.3819 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:51.3835 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:52.3853 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:53.3870 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:28:54.3876 P2Pool caught SIGTERM
+NOTICE  2024-05-23 03:28:54.3876 P2Pool stopping
+NOTICE  2024-05-23 03:28:54.3878 ConsoleCommands event loop stopped
+NOTICE  2024-05-23 03:28:54.3878 TCPServer stopped
+NOTICE  2024-05-23 03:28:54.3895 P2Pool uv_run exited, result = 0
+NOTICE  2024-05-23 03:28:54.3895 P2Pool stopped
+NOTICE  2024-05-23 03:28:54.3899 RandomX_Hasher event loop stopped
+NOTICE  2024-05-23 03:28:54.3899 RandomX_Hasher stopped
+NOTICE  2024-05-23 03:28:54.3900 Log stopped
+NOTICE  2024-05-23 03:31:15.9337 Log started
+NOTICE  2024-05-23 03:31:15.9346 P2Pool v3.10 (built with GCC/13.2.1 on Jan  4 2024)
+NOTICE  2024-05-23 03:31:15.9347 Util UPnP: Started scanning for UPnP IGD devices
+NOTICE  2024-05-23 03:31:15.9349 SideChain network type  = mainnet
+NOTICE  2024-05-23 03:31:15.9349 SideChain using default config
+NOTICE  2024-05-23 03:31:15.9349 SideChain pool name     = default
+NOTICE  2024-05-23 03:31:15.9349 SideChain block time    = 10 seconds
+NOTICE  2024-05-23 03:31:15.9349 SideChain min diff      = 100000
+NOTICE  2024-05-23 03:31:15.9349 SideChain PPLNS window  = 2160 blocks
+NOTICE  2024-05-23 03:31:15.9349 SideChain uncle penalty = 20%
+NOTICE  2024-05-23 03:31:15.9349 SideChain generating consensus ID
+NOTICE  2024-05-23 03:31:15.9349 SideChain consensus ID = 22af7ee7************************************************4407f918
+NOTICE  2024-05-23 03:31:15.9355 RandomX_Hasher event loop started
+NOTICE  2024-05-23 03:31:15.9359 ConsoleCommands uv_guess_handle returned 14
+NOTICE  2024-05-23 03:31:15.9359 ConsoleCommands processing stdin as UV_TTY
+NOTICE  2024-05-23 03:31:15.9359 TCPServer listening on 127.0.0.1:60553
+NOTICE  2024-05-23 03:31:15.9359 ConsoleCommands event loop started
+NOTICE  2024-05-23 03:31:15.9377 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:31:16.9392 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:31:17.9408 P2Pool monerod is not synchronized, trying again in 1 second
+NOTICE  2024-05-23 03:31:18.9412 P2Pool caught SIGINT
+NOTICE  2024-05-23 03:31:18.9413 P2Pool stopping
+NOTICE  2024-05-23 03:31:18.9414 ConsoleCommands event loop stopped
+NOTICE  2024-05-23 03:31:18.9414 TCPServer stopped
