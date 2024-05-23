@@ -25,16 +25,25 @@ RUN apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 RUN git clone https://github.com/xmrig/xmrig.git
 WORKDIR xmrig
 RUN mkdir build && cd build; cmake ..; make -j$(nproc)
-COPY config_part1.json .
-COPY config_part2.json .
-RUN touch config.json; cat config_part1.json >> config.json; echo \
-${USER_ADDRESS} >> config.json; cat config_part2.json >> config.json;
-RUN cp config.json ./build/config.json
+
+# Add all possible configurations
+COPY monero_config_part1.json .
+COPY monero_config_part2.json .
+COPY zephyr_config_part2.json .
+COPY zephyr_config_part1.json .
+RUN touch monero_config.json && touch zephyr_config.json; cat \
+monero_config_part1.json >> config.json; echo \
+${USER_ADDRESS} >> monero_config.json; cat monero_config_part2.json >> \
+monero_config.json; cat zephyr_config_part1.json >> zephyr_config.json; echo \
+${USER_ADDRESS} >> zephyr_config.json; cat zephyr_config_part2.json >> zephyr_config.json;
+
 WORKDIR build
 EXPOSE 8069
 RUN useradd solumyr --uid=1001
 USER solumyr
-ENTRYPOINT exec ./xmrig -t ${THREADS} --coin ${COIN} --algo ${ALGO} --tls -o \
+ENTRYPOINT exec ./xmrig -c ${COIN}_config.json -t ${THREADS} --coin ${COIN} \
+--algo ${ALGO} \
+--tls -o \
 ${POOL_URL} \
 --keepalive --cpu-priority ${CPU_PRIORITY} \
 --nicehash --randomx-1gb-pages  \
