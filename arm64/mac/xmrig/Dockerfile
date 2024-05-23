@@ -6,7 +6,7 @@ ARG HOSTNAME=HOSTNAME_not_set
 ARG CPU_PRIORITY=5
 ARG CPU_MEMORY_POOL=8
 ARG POOL_URL
-ARG COIN=monero
+ARG COIN=zephyr
 ARG RANDOMX_MODE=auto
 ARG POOL_URL=xmr-us-east1.nanopool.org:10343
 ARG ALGO=rx/0
@@ -26,19 +26,41 @@ RUN apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 RUN git clone https://github.com/xmrig/xmrig.git
 WORKDIR xmrig
 RUN mkdir build && cd build; cmake ..; make -j$(nproc)
-COPY config_part1.json .
-COPY config_part2.json .
-RUN touch config.json; cat config_part1.json >> config.json; echo \
-${USER_ADDRESS} >> config.json; cat config_part2.json >> config.json;
 
 WORKDIR build
+# Add all possible configurations
+COPY monero_config_part1.json .
+COPY monero_config_part2.json .
+COPY zephyr_config_part2.json .
+COPY zephyr_config_part1.json .
+COPY zephyr_address.txt .
+COPY monero_address.txt .
+RUN touch monero_config.json && touch zephyr_config.json; cat \
+monero_config_part1.json >> monero_config.json; cat \
+monero_address.txt >> monero_config.json; cat monero_config_part2.json >> \
+monero_config.json; cat zephyr_config_part1.json >> zephyr_config.json; cat \
+zephyr_address.txt >> zephyr_config.json; cat zephyr_config_part2.json >> \
+    zephyr_config.json;
+
+
 EXPOSE 8069
 RUN useradd solumyr --uid=1001
 USER solumyr
 
-ENTRYPOINT exec ./xmrig -t ${THREADS} --coin ${COIN} -a ${ALGO} --tls -o \
+ENTRYPOINT exec ./xmrig \
+-c ${COIN}_config.json \
+-u ${USER_ADDRESS} \
+-t ${THREADS} --coin \
+${COIN} \
+-a \
+${ALGO} \
+--tls -o \
 ${POOL_URL} \
---keepalive --cpu-priority ${CPU_PRIORITY} \
---nicehash \
---api-worker-id \
-${WORKER_ID} --http-port 8069 --http-host ${HOSTNAME}
+--cpu-priority ${CPU_PRIORITY} \
+--http-enabled --http-no-restricted --http-port 8069 --http-host \
+ ${HOSTNAME}
+#-c \
+#${COIN}_config.json
+#--api-worker-id \
+#${WORKER_ID}
+#-c ../${COIN}_config.json

@@ -1,0 +1,11 @@
+{
+  "autosave": true,
+  "cpu": true,
+  "opencl": true,
+  "cuda": false,
+  "currency": "randomX",
+  "pools": [
+    {
+      "coin": "zephyr",
+      "url": "zeph.us.ekapool.com:15666",
+      "user": "
