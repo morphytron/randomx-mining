@@ -1,0 +1,1 @@
+[2024-05-22 23:42:08.574] /root/xmr-mining/shell/amd64/xmrig/xmrig_/build/xmrig: unsupported non-option argument 'rx/0'
