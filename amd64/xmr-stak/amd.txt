@@ -1,0 +1,12 @@
+"gpu_threads_conf" :
+[
+ { "index" : 0, "intensity" : 1000, "worksize" : 8, "affine_to_cpu" : false,
+   "strided_index" : true, "mem_chunk" : 2, "unroll" : 8, "comp_mode" : true,
+   "interleave" : 40
+ },
+ { "index" : 0, "intensity" : 1000, "worksize" : 8, "affine_to_cpu" : false,
+   "strided_index" : true, "mem_chunk" : 2, "unroll" : 8, "comp_mode" : true,
+   "interleave" : 40
+ },
+],
+"platform_index": 1,

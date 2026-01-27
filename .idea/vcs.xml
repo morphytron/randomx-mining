@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/amd64/monero" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/amd64/xmr-stak-no-docker" vcs="Git" />
   </component>
 </project>

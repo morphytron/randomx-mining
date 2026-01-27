@@ -1,28 +1,29 @@
 FROM nvidia/opencl:latest
-ARG THREADS=32
+ARG THREADS=100
 ARG WORKER_ID=anonymous_worker
 ARG USER_ADDRESS=47ycYS8t79DSyYAYnpXGVJTSiGXAW7qnEVBXfwVfeQ9f4HYWLWEn2imV2WUZWTMPVbjTFaWFhDSxiUU22GscsCDnR7yWcEa.amd-desktop-1/dapatiga@gmail.com
 ARG HOSTNAME=HOSTNAME_not_set
 ARG CPU_PRIORITY=5
-ARG CPU_MEMORY_POOL=8
+ARG CPU_MEMORY_POOL=256
 ARG POOL_URL
 ARG COIN=monero
 ARG RANDOMX_MODE=auto
 ARG POOL_URL=xmr-us-east1.nanopool.org:10343
 ARG ALGO=rx/0
-ENV CPU_PRIORITY $CPU_PRIORITY
-ENV CPU_MEMORY_POOL $CPU_MEMORY_POOL #16MB cache or the total cpu cache.
+ENV CPU_PRIORITY=$CPU_PRIORITY
+ #16MB cache or the total cpu cache.
+ENV CPU_MEMORY_POOL=$CPU_MEMORY_POOL
  #If using small IoT devices, set to 0
-ENV RANDOMX_MODE $RANDOMX_MODE
-ENV WORKER_ID $WORKER_ID
-ENV USER_ADDRESS $USER_ADDRESS
-ENV HOSTNAME $HOSTNAME
-ENV POOL_URL $POOL_URL
-ENV COIN $COIN
-ENV ALGO $ALGO
+ENV RANDOMX_MODE=$RANDOMX_MODE
+ENV WORKER_ID=$WORKER_ID
+ENV USER_ADDRESS=$USER_ADDRESS
+ENV HOSTNAME=$HOSTNAME
+ENV POOL_URL=$POOL_URL
+ENV COIN=$COIN
+ENV ALGO=$ALGO
 RUN apt-get update
 RUN apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
-RUN git clone https://github.com/xmrig/xmrig.git
+RUN git clone https://github.com/xmrig/xmrig-cuda.git xmrig
 WORKDIR xmrig
 RUN mkdir build && cd build; cmake ..; make -j$(nproc)
 COPY config_part1.json .
